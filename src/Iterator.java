@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Iterator {
+interface Iterator<T> {
+    boolean hasNext();
+    T next();
 }
